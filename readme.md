@@ -24,6 +24,11 @@ import oldplotlib as plt
 
 
 ## Development of oldplotlib
+people: @ckinzthompson @korakray
+
+feel free to contribute and/or suggestion new plots styles to emulate
+
+#### Information:
 * [Observations about the figure](figure_observations.md)
 * [Current style issues to be corrected](current_issues.md)
 * [Current test figure code](test.py)
@@ -31,5 +36,7 @@ import oldplotlib as plt
 #### Current:
 <img src="https://github.com/ckinzthompson/oldplotlib/blob/main/images/test.svg" width="512">
 
-#### Overlap original (red) / oldplotlib (black):
+
+Overlap original (red) / oldplotlib (black):
+
 <img src="https://github.com/ckinzthompson/oldplotlib/blob/main/images/overlap.png" width="512">
