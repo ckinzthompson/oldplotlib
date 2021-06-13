@@ -5,9 +5,6 @@ A Matplotlib stylesheet to replicate the figure style of Changeux and Kittel in:
 Specifically, to replicate Figure 2:
 
 ![Original](./images/figure2.png)
-![Oldplotlib](./images/test.png)
-![Overlap](./images/overlap.png)
-
 
 ## How to Use
 There are two ways to use this stylesheet for your figures
@@ -27,3 +24,7 @@ import oldplotlib as plt
 * [Observations about the figure](figure_observations.md)
 * [Current style issues to be corrected](current_issues.md)
 * [Current test figure code](test.py)
+Currently the test image is:
+![Oldplotlib](./images/test.png)
+Showing the overlap of original (red) and oldplotlib (black)
+![Overlap](./images/overlap.png)
