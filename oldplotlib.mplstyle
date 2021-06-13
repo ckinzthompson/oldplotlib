@@ -1,0 +1,66 @@
+
+## Canvas
+figure.facecolor: ffffff
+figure.figsize: 3.0,2.5
+figure.dpi: 150
+
+
+## Subplots
+figure.subplot.left: 0.08
+figure.subplot.right: 0.987
+figure.subplot.bottom: 0.073
+figure.subplot.top: 0.975
+figure.subplot.hspace: 0.0475
+
+axes.spines.right: True
+axes.spines.top: True
+
+axes.facecolor: ffffff
+axes.edgecolor: 000000
+axes.linewidth: 1#0.75
+axes.grid: False
+
+
+## Ticks
+xtick.top: True
+xtick.bottom: True
+xtick.major.size: 5.0
+xtick.major.width: 0.75
+xtick.minor.width: 0.75
+xtick.direction: in
+xtick.minor.visible: False
+xtick.alignment: center
+
+ytick.left: True
+ytick.right: True
+ytick.major.size: 5.0
+ytick.major.width: 0.75
+ytick.minor.width: 0.75
+ytick.direction: in
+ytick.minor.visible: False
+ytick.alignment: center
+
+
+## Tick Labels
+xtick.major.pad: 2.4
+xtick.labelsize: 6.0
+
+ytick.major.pad: 2.54
+ytick.labelsize: 6.0
+
+
+## Axis Labels
+axes.labelsize: 8
+axes.labelpad: -2.5
+
+## Lines
+axes.prop_cycle: cycler('color', ['000000',])
+lines.linewidth: 1.25
+lines.dashed_pattern: 1.5, 0.5 ## tuple is backwards...
+
+
+## Fonts
+font.family: Futura
+font.size: 7.75
+mathtext.fontset: stixsans #dejavusans
+pdf.fonttype: 42

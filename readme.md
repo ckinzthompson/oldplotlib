@@ -1,38 +1,29 @@
 # oldplotlib
-trying to duplicate the plot style in the changeux 1967 paper
+A Matplotlib stylesheet to replicate the figure style of Changeux and Kittel in:
+>Changeux, J.-P., Thiery, J., Tung, Y. & Kittel, C. ON THE COOPERATIVITY OF BIOLOGICAL MEMBRANES. Proceedings of the National Academy of Sciences 57, 335–341 (1967).
+
+Specifically, to replicate Figure 2:
+
+![Original](./images/figure2.png)
+![Oldplotlib](./images/test.png)
+![Overlap](./images/overlap.png)
 
 
-## canvas
-canvas dimensions are 3"x2.5" W:H
-offsets are 0.23" left, 0.05" right, 0.2" bottom, 0.05" top, hspace = 0.05"
-on [0,1] this is: .077, .983, .08, 0.98, hspace = .02
+## How to Use
+There are two ways to use this stylesheet for your figures
+First, with down the [stylesheet](oldplotlib.mplstyle), then
+``` Python
+import matplotlib.pyplot as plt
+plt.style.use('/path/to/the/oldplotlib.mplstyle')
+```
+The second way is a a simple wrapper over matplotlib.pyplot that essentially types the previous option in for you. Instead of doing `import matplotlib.pyplot as plt` in your file, use
 
-## subplot axes
-- axes bbox has all four sides
-- the axes box is 2.72" x 1.10", with 1pt line thickness
+``` Python
+import oldplotlib as plt
+```
 
-## Ticks
-- it seems the ticks are inward facing and maybe .7-.8 pt thick  -- 0.75?
-- ticks seem to be 0.07in long (maybe 0.065... but i dont' think so)
-- x axis has 6 ticks, include two entirely side ones (4 in middle)
-- y axis has 3 ticks, including two entirely side ones (1 in middle)
 
-## Tick labels
-- tick labels are font size 6 futura with 0% tracking
-- tick labels (Y) are LHS .165" and RHS .035" from axis line
-- tick labels (X) are TOP .032" and BOTTOM .105" from axis line
-
-## Axis labels
-- axis label  (X) is  TOP .128" and BOTTOM .184" from axis line
-- axis label is font size 8
-
-## Lines
-- plot lines are 1.25 pt
-- dashed lines are 1.25 pt, with dash parameters of (.5, 1.5) (length,skip?)
-
-## Fonts
-The font is Futura (medium)
-The font size is 7.75 pt
-The spacing btw lines is 11 pt font spacing
-any math/greek (〈𝓁Λ〉) letters are in some weird serif font... switch to MPL default (so go with dejavu serif or STIX Two)
-Sometimes long numbers have -75% tracking between letters
+## Development of oldplotlib
+* [Observations about the figure](figure_observations.md)
+* [Current style issues to be corrected](current_issues.md)
+* [Current test figure code](test.py)
