@@ -37,6 +37,6 @@ feel free to contribute and/or suggestion new plots styles to emulate
 <img src="https://github.com/ckinzthompson/oldplotlib/blob/main/images/test.svg" width="512">
 
 
-Overlap original (red) / oldplotlib (black):
+#### Overlap original (red) / oldplotlib (black):
 
 <img src="https://github.com/ckinzthompson/oldplotlib/blob/main/images/overlap.png" width="512">
