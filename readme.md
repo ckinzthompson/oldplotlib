@@ -4,9 +4,8 @@ A Matplotlib stylesheet to replicate the figure style of Changeux and Kittel in:
 
 Specifically, the style is to match figure 2:
 
-<img src="https://github.com/ckinzthompson/oldplotlib/blob/main/images/figure2.png" width="512">>
+<img src="https://github.com/ckinzthompson/oldplotlib/blob/main/images/figure2.png" width="512">
 
-![Oldplotlib]()
 
 ## How to Use
 There are two ways to use this stylesheet for your figures
@@ -29,7 +28,8 @@ import oldplotlib as plt
 * [Current style issues to be corrected](current_issues.md)
 * [Current test figure code](test.py)
 
+#### Current:
+<img src="https://github.com/ckinzthompson/oldplotlib/blob/main/images/test.svg" width="512">
 
 #### Overlap original (red) / oldplotlib (black):
-
-<img src="https://github.com/ckinzthompson/oldplotlib/blob/main/images/test.svg" width="512">
+<img src="https://github.com/ckinzthompson/oldplotlib/blob/main/images/overlap.png" width="512">
