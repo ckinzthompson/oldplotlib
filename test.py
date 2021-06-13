@@ -79,5 +79,4 @@ if __name__ == '__main__':
 
 	######
 	fig.savefig('images/test.pdf')
-	fig.savefig('images/test.png')
 	plt.show()
