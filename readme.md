@@ -2,14 +2,16 @@
 A Matplotlib stylesheet to replicate the figure style of Changeux and Kittel in:
 >Changeux, J.-P., Thiery, J., Tung, Y. & Kittel, C. ON THE COOPERATIVITY OF BIOLOGICAL MEMBRANES. Proceedings of the National Academy of Sciences 57, 335–341 (1967).
 
-Specifically, the style is
+Specifically, the style is to match figure 2:
 
-![Oldplotlib](./images/test.svg)
+<img src="https://github.com/ckinzthompson/oldplotlib/blob/main/images/figure2.png" width="512">>
+
+![Oldplotlib]()
 
 ## How to Use
 There are two ways to use this stylesheet for your figures
 
-First, with down the [stylesheet](oldplotlib.mplstyle), then
+First, download the [stylesheet](oldplotlib.mplstyle), then
 
 ``` Python
 import matplotlib.pyplot as plt
@@ -30,4 +32,4 @@ import oldplotlib as plt
 
 #### Overlap original (red) / oldplotlib (black):
 
-![Overlap](./images/overlap.png)
+<img src="https://github.com/ckinzthompson/oldplotlib/blob/main/images/test.svg" width="512">
