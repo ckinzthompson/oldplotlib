@@ -2,7 +2,7 @@
 ## Canvas
 figure.facecolor: ffffff
 figure.figsize: 3.0,2.5
-figure.dpi: 150
+figure.dpi: 300
 
 
 ## Subplots
