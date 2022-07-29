@@ -54,7 +54,7 @@ axes.labelsize: 8
 axes.labelpad: -2.5
 
 ## Lines
-axes.prop_cycle: cycler('color', ['000000',])
+axes.prop_cycle: (cycler('color', ['000000',]) * cycler('linestyle', ["solid", "dotted", "dashed", "dashdot", (0, (1, 10)), (0, (1, 1)), (0, (1, 1)), (0, (5, 10)), (0, (5, 5)), (0, (5, 1)), (0, (3, 10, 1, 10)), (0, (3, 5, 1, 5)), (0, (3, 1, 1, 1)), (0, (3, 5, 1, 5, 1, 5)), (0, (3, 10, 1, 10, 1, 10)), (0, (3, 1, 1, 1, 1, 1)),]))
 lines.linewidth: 1.25
 lines.dashed_pattern: 1.5, 0.5 ## tuple is backwards...
 
