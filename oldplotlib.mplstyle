@@ -64,3 +64,7 @@ font.family: Futura Std
 font.size: 7.75
 mathtext.fontset: stixsans #dejavusans
 pdf.fonttype: 42
+
+## Savefig
+savefig.facecolor: ffffff
+savefig.dpi: 300
