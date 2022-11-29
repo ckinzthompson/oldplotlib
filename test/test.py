@@ -1,9 +1,11 @@
 if __name__ == '__main__':
 	# import matplotlib.pyplot as plt
 	# plt.style.use('./oldplotlib.mplstyle')
-	import oldplotlib as plt
+	import matplotlib.pyplot as plt
 	import numpy as np
 	from scipy.optimize import newton
+
+	plt.style.use('oldplotlib')
 
 	fig,ax = plt.subplots(2)
 
@@ -78,5 +80,5 @@ if __name__ == '__main__':
 
 
 	######
-	fig.savefig('images/test.pdf')
+	fig.savefig('../images/test.pdf')
 	plt.show()

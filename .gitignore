@@ -1,2 +1,6 @@
 .DS_store
+.vscode
+build
+
 *.pyc
+*.egg-info
