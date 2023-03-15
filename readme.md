@@ -23,6 +23,10 @@ import oldplotlib as plt
 ```
 
 
+## Font
+This stylesheet uses Futura Std (https://fontsgeek.com/futura-std-font).
+
+
 ## Development of oldplotlib
 people: @ckinzthompson @korakray
 
