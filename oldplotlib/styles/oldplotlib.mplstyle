@@ -12,6 +12,9 @@ figure.subplot.bottom: 0.073
 figure.subplot.top: 0.975
 figure.subplot.hspace: 0.0475
 
+## Layout
+figure.constrained_layout.use: True
+
 axes.spines.right: True
 axes.spines.top: True
 
