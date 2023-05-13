@@ -15,8 +15,8 @@ class new_install(install):
         atexit.register(_post_install)
 
     def run(self):
-        install.run(self)
         _post_install()
+        install.run(self)
 
 
 __version__ = "0.1.0"
