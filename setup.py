@@ -14,6 +14,10 @@ class new_install(install):
         super(new_install, self).__init__(*args, **kwargs)
         atexit.register(_post_install)
 
+    def run(self):
+        install.run(self)
+        _post_install()
+
 
 __version__ = "0.1.0"
 
