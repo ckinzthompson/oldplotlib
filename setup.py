@@ -10,9 +10,13 @@ def _post_install():
 
 
 class new_install(install):
-    def __init__(self, *args, **kwargs):
-        super(new_install, self).__init__(*args, **kwargs)
-        atexit.register(_post_install)
+    # def __init__(self, *args, **kwargs):
+    #     super(new_install, self).__init__(*args, **kwargs)
+    #     atexit.register(_post_install)
+
+    def run(self):
+        install.run()
+        _post_install()
 
 
 __version__ = "0.1.0"
