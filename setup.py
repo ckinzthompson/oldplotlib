@@ -15,7 +15,7 @@ class new_install(install):
     #     atexit.register(_post_install)
 
     def run(self):
-        install.run()
+        install.run(self)
         _post_install()
 
 
@@ -24,7 +24,6 @@ __version__ = "0.1.0"
 setup(
     name="oldplotlib",
     version=__version__,
-    setup_requires=["matplotlib>=3.0.0"],
     install_requires=["matplotlib>=3.0.0"],
     packages=["oldplotlib"],
     cmdclass={"install": new_install},
