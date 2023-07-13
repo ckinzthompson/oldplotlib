@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "oldplotlib"
+version = "0.1.0"
+description = "A Matplotlib stylesheet to replicate the figure style of Changeux and Kittel"
+authors = ["Guillaume David <guillaumedavidphd@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+matplotlib = "^3.7.2"
+
+
+[build-system]
+requires = ["poetry-core", "matplotlib"]
+build-backend = "poetry.core.masonry.api"

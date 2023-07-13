@@ -25,7 +25,7 @@ setup(
     name="oldplotlib",
     version=__version__,
     install_requires=["matplotlib>=3.0.0"],
-    packages=["oldplotlib"],
+    packages=["oldplotlib", "oldplotlib.styles"],
     cmdclass={"install": new_install},
     include_package_data=True,
 )
