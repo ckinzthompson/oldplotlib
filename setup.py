@@ -1,22 +1,17 @@
-import atexit
 from setuptools import setup
 from setuptools.command.install import install
 
 
-def _post_install():
+def post_install():
     import oldplotlib
 
     oldplotlib.copy_style()
 
 
 class new_install(install):
-    # def __init__(self, *args, **kwargs):
-    #     super(new_install, self).__init__(*args, **kwargs)
-    #     atexit.register(_post_install)
-
     def run(self):
         install.run(self)
-        _post_install()
+        post_install()
 
 
 __version__ = "0.1.0"
